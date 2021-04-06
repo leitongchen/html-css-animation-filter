@@ -112,3 +112,34 @@
         transform: rotate(0deg);
     }
 }
+
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: moveTop 2s linear;
+}
+@keyframes moveTop {
+    0% {
+        left: 10%;
+    }
+    50% {
+        left: 70%;
+    }
+    100% {
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: moveBottom 2s linear;
+}
+@keyframes moveBottom {
+    0% {
+        right: 20%;
+    }
+    50% {
+        right: 70%;
+    }
+    100% {
+        right: 20%;
+    }
+}
